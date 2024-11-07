@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import React from "react";
 
 export const Hero = () => {
@@ -17,7 +18,10 @@ export const Hero = () => {
 
           <div className="lg:py-24">
             <h2 className="text-3xl font-bold sm:text-4xl">
-              Grow your audience
+              Find & Book 
+              <span className="text-primary"> Appointment </span>
+              with your personalised
+              <span className="text-primary"> Doctors </span>
             </h2>
 
             <p className="mt-4 text-gray-600">
@@ -27,12 +31,7 @@ export const Hero = () => {
               repellat.
             </p>
 
-            <a
-              href="#"
-              className="mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
-            >
-              Get Started Today
-            </a>
+            <Button className="mt-10">Explore now...</Button>
           </div>
         </div>
       </div>
